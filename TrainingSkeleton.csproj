@@ -45,7 +45,11 @@
   <ItemGroup>
     <Compile Include="Collection\CDictionary.cs" />
     <Compile Include="Collection\CList.cs" />
-    <Compile Include="LapVaReNhanh\LapVaReNhanh.cs" />
+    <Compile Include="File_\WorkWithFile.cs" />
+    <Compile Include="LapVaReNhanh\VongLap.cs" />
+    <Compile Include="OOP\Employee.cs" />
+    <Compile Include="OOP\Student.cs" />
+    <Compile Include="OOP\Teacher.cs" />
     <Compile Include="PrimitiveTypes\PTDatetime.cs" />
     <Compile Include="PrimitiveTypes\PTDecimal.cs" />
     <Compile Include="PrimitiveTypes\PTInt.cs" />

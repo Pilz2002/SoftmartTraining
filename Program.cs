@@ -4,7 +4,12 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using TrainingSkeleton.Collection;
+using TrainingSkeleton.File_;
+using TrainingSkeleton.LapVaReNhanh;
+using TrainingSkeleton.OOP;
+
 
 namespace TrainingSkeleton
 {
@@ -12,16 +17,10 @@ namespace TrainingSkeleton
 	{
 		static void Main(string[] args)
 		{
-			
+			DateTime inputDatetime = DateTime.ParseExact("11/12/2024", "MM/dd/yyyy", CultureInfo.InvariantCulture);
 
-			DateTime inputDatetime1 = DateTime.ParseExact("11/12/2020", "MM/dd/yyyy", CultureInfo.InvariantCulture);
-			DateTime inputDatetime2 = DateTime.ParseExact("12/23/2024", "MM/dd/yyyy", CultureInfo.InvariantCulture);
-			CList cList = new CList();
-			List<int> lst = cList.GenerateFibonacci(5);
-			foreach(var item in lst)
-			{
-                Console.WriteLine(item);
-            }
+			WorkWithFile file = new WorkWithFile();
+			file.ReadnWriteFile("input.txt","output.txt");
 		}
 	}
 }
