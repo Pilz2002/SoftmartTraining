@@ -1,0 +1,7 @@
+D:\workspace\Softmart\TrainingSkeleton\bin\Debug\TrainingSkeleton.exe.config
+D:\workspace\Softmart\TrainingSkeleton\bin\Debug\TrainingSkeleton.exe
+D:\workspace\Softmart\TrainingSkeleton\bin\Debug\TrainingSkeleton.pdb
+D:\workspace\Softmart\TrainingSkeleton\obj\Debug\TrainingSkeleton.csproj.AssemblyReference.cache
+D:\workspace\Softmart\TrainingSkeleton\obj\Debug\TrainingSkeleton.csproj.CoreCompileInputs.cache
+D:\workspace\Softmart\TrainingSkeleton\obj\Debug\TrainingSkeleton.exe
+D:\workspace\Softmart\TrainingSkeleton\obj\Debug\TrainingSkeleton.pdb
